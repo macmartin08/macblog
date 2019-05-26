@@ -1,0 +1,24 @@
+{
+  "name": "macblog",
+  "version": "1.0.0",
+  "description": "Blogging Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macmartin08/macblog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macmartin08/macblog/issues"
+  },
+  "homepage": "https://github.com/macmartin08/macblog#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
