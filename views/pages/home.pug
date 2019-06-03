@@ -1,8 +1,12 @@
 extends ../layouts/main.pug
+
 block globals
-	- title ="my super awsomde blogging plateform";
+  - title = "The Adventure of a Lifetime"
 
-	body
-		h1#hrader = title
+block content
 
-		p.intro-text.second-class(data-attr="my value") It was a rainy day in Pizzavill
+  header.home-cta
+    h1
+      = title
+      br
+      small It was a rainy day in Pizzaville...
