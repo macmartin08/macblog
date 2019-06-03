@@ -2,13 +2,12 @@ const express = require('express');
 
 const app = express();
 
-app.get(`/`,(request,response)=>{
-	response.send(`welcome to our very plane site`);
-});
+const routes = require('./routes.js');
+app.use('/',routes);
 
-app.get(`/about`,(request,response)=>{
-	response.send(`its a cold dark rainy day in pizzaville`);
-});
+const path = require('path');
+app.set('view',path.join(__dirname,'views'));
+app.set('view engine','pug');
 
 const port = process.env.PORT || 4000;
 
