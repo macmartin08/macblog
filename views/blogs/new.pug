@@ -5,6 +5,10 @@ block content
       h1 New Blog Post
 
     div
+      include ./form.pug
+  
+
+    div
       form(action="/blogs", method="POST")
         .form-group
           label Title

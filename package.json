@@ -19,7 +19,10 @@
   },
   "homepage": "https://github.com/macmartin08/macblog#readme",
   "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
     "express": "^4.17.1",
+    "express-session": "^1.16.1",
     "nodemon": "^1.19.1"
   }
 }
